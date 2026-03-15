@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/liupahlmartin-beep/Zoan-Task/main/logo.png" width="150" alt="Logo"/>
 </p>
 
-<h1 align="center">ImagePut</h1>
+<h1 align="center">Zoan-Task!</h1>
 
 <p align="center">
   A powerful AutoHotkey v2 library for converting and outputting images to virtually any format or destination.
@@ -33,23 +33,9 @@
 
 ---
 
-## 🚀 Quick Start
 
-```ahk
-#Requires AutoHotkey v2.0
-#Include ImagePut.ahk
 
-; Save a screenshot to a PNG file
-ImagePutFile([0, 0, 800, 600], "screenshot.png")
 
-; Copy an image to clipboard
-ImagePutClipboard("my_image.png")
-
-; Get a Base64 string of an image
-b64 := ImagePutBase64("my_image.png")
-```
-
----
 
 ## 📄 License
 
